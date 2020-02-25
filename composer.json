@@ -1,0 +1,20 @@
+{
+    "name": "com-func/com-func",
+    "description": "common functions",
+    "authors": [
+        {
+            "name": "xuedong",
+            "email": "599149107@qq.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "comFunc\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
